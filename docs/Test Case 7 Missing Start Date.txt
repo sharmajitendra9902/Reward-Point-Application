@@ -1,0 +1,9 @@
+curl --location 'http://localhost:8080/api/v1/rewards?endDate=2026-03-31&startDate=null' \
+--header 'accept: */*'
+
+Response : 
+
+{
+    "errorCode": "BAD_REQUEST_003",
+    "errorMessage": "Invalid value provided for parameter 'startDate'. Please ensure dates are in YYYY-MM-DD format."
+}

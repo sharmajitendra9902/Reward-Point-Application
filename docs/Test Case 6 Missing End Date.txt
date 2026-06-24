@@ -1,0 +1,9 @@
+curl --location 'http://localhost:8080/api/v1/rewards?startDate=2026-03-31&endDate=' \
+--header 'accept: */*'
+
+Response 
+
+{
+    "errorCode": "BAD_REQUEST_001",
+    "errorMessage": "Both start date and end date must be provided, or both must be empty."
+}

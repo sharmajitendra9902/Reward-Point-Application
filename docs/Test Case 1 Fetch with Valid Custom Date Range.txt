@@ -1,0 +1,103 @@
+curl --location 'http://localhost:8080/api/v1/rewards?startDate=2026-01-01&endDate=2026-03-31' \
+--header 'accept: */*'
+
+Response :
+
+[
+  {
+    "customerId": "C1",
+    "customerName": "Customer 1",
+    "evaluationPeriod": "2026-03-22 to 2026-06-22",
+    "totalTransactionsProcessed": 5,
+    "pointsByMonth": [
+      {
+        "month": "April",
+        "year": "2026",
+        "points": 50
+      },
+      {
+        "month": "May",
+        "year": "2026",
+        "points": 0
+      },
+      {
+        "month": "June",
+        "year": "2026",
+        "points": 143.98
+      }
+    ],
+    "totalRewardPoints": 193.98
+  },
+  {
+    "customerId": "C3",
+    "customerName": "Customer 3",
+    "evaluationPeriod": "2026-03-22 to 2026-06-22",
+    "totalTransactionsProcessed": 4,
+    "pointsByMonth": [
+      {
+        "month": "April",
+        "year": "2026",
+        "points": 8.88
+      },
+      {
+        "month": "May",
+        "year": "2026",
+        "points": 103.26
+      },
+      {
+        "month": "June",
+        "year": "2026",
+        "points": 31.85
+      }
+    ],
+    "totalRewardPoints": 143.99
+  },
+  {
+    "customerId": "C4",
+    "customerName": "Customer 4",
+    "evaluationPeriod": "2026-03-22 to 2026-06-22",
+    "totalTransactionsProcessed": 4,
+    "pointsByMonth": [
+      {
+        "month": "April",
+        "year": "2026",
+        "points": 134.62
+      },
+      {
+        "month": "May",
+        "year": "2026",
+        "points": 179.66
+      },
+      {
+        "month": "June",
+        "year": "2026",
+        "points": 40.94
+      }
+    ],
+    "totalRewardPoints": 355.22
+  },
+  {
+    "customerId": "C5",
+    "customerName": "Customer 5",
+    "evaluationPeriod": "2026-03-22 to 2026-06-22",
+    "totalTransactionsProcessed": 5,
+    "pointsByMonth": [
+      {
+        "month": "April",
+        "year": "2026",
+        "points": 22.66
+      },
+      {
+        "month": "May",
+        "year": "2026",
+        "points": 20.62
+      },
+      {
+        "month": "June",
+        "year": "2026",
+        "points": 140.78
+      }
+    ],
+    "totalRewardPoints": 184.06
+  }
+]
