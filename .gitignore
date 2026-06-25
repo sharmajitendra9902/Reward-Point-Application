@@ -46,3 +46,10 @@ out/
 ### Operating System ###
 .DS_Store
 Thumbs.db
+
+# Local build files hidden from GitHub
+.gitattributes
+HELP.md
+lombok.config
+mvnw
+mvnw.cmd
